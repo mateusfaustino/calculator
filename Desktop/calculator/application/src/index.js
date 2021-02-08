@@ -1,8 +1,7 @@
 /*| Importar |------------------------------------------------------------------*/
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-const elemento = <h1>Calculadora</h1>
+import First from './first'
 
 /*| Escrever na div #root do index.html |------------------------------------------------------------------*/
-ReactDOM.render(elemento,document.getElementById('root'))
+ReactDOM.render(<First/>,document.getElementById('root'))
